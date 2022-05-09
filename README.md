@@ -4,7 +4,7 @@
 
 ## 截图
 
-![软件截图](https://s3.bmp.ovh/imgs/2022/05/07/278b19dbf9d3b4a2.png)
+![软件截图](https://raw.githubusercontent.com/mayuko2012/SwitchShots/master/screenshots/screenshots_windows.png)
 
 ## 原理
 
