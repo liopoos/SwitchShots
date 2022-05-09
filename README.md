@@ -16,7 +16,25 @@ Switch 的截图文件名格式为：时间随机数 - GameID。GameID为加密�
 
 **通过 Release 版本安装**
 
-- macOS：✅[arm64](https://github.com/mayuko2012/SwitchShots/releases/download/v0.2.3/SwitchShots-0.2.3-darwin-arm64.dmg)  ✅[x64](https://github.com/mayuko2012/SwitchShots/releases/download/v0.2.3/SwitchShots-0.2.3-darwin-x64.dmg)
+- macOS：⚠️[arm64](https://github.com/mayuko2012/SwitchShots/releases/download/v0.2.3/SwitchShots-0.2.3-darwin-arm64.dmg)  ⚠️[x64](https://github.com/mayuko2012/SwitchShots/releases/download/v0.2.3/SwitchShots-0.2.3-darwin-x64.dmg)
+
+⚠️ 该编译版本没有进行代码公证，所以无法运行，推荐本地应用签名。
+
+**macOS本地代码签名**
+
+安装 Command Line Tools：
+
+```bash
+xcode-select --install
+```
+
+打开终端并执行：
+
+```bash
+sudo codesign --force --deep --sign - /Applications/SwitchShots.app/
+```
+
+出现 「replacing existing signature」 即本地签名成功。
 
 ## 构建
 
