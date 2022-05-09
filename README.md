@@ -16,7 +16,7 @@ Switch 的截图文件名格式为：时间随机数 - GameID。GameID为加密�
 
 **通过 Release 版本安装**
 
-- macOS：✅arm64  ✅x64
+- macOS：✅[arm64](https://github.com/mayuko2012/SwitchShots/releases/download/v0.2.3/SwitchShots-0.2.3-darwin-arm64.dmg)  ✅[x64](https://github.com/mayuko2012/SwitchShots/releases/download/v0.2.3/SwitchShots-0.2.3-darwin-x64.dmg)
 
 ## 构建
 
@@ -55,6 +55,10 @@ yarn electron:build
 ### 更新GameTitleID
 
 GameTitleID 数据库存储了 GameID 对应的游戏名称以及游戏封面图。如果转换的截图没有正确识别，建议通过「更新GameTitleID」按钮更新 GameTitleID。
+
+## Todo
+
+- [ ] i18n支持
 
 ## 版权
 
